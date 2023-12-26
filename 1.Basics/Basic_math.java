@@ -8,10 +8,12 @@ public class Basic_math {
         int h=25;
         double e=a+f;
         //int g=a+f; //Error
-        System.out.println(f+h);
-        System.out.println(a+c);
-        System.out.println(c);
-        System.out.println(e);
+        System.out.println("f + h = "+(f+h));
+        System.out.println("a + c = "+(a+c));
+        System.out.println("C x a = "+(c*a));
+        System.out.println("C / A = "+(c/a));
+        System.out.println("C % A = "+(c%a));// modulus (Remainder)
+        System.out.println("Val e="+e);
 
     }
 }

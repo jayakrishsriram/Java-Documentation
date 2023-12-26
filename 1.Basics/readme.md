@@ -2,9 +2,15 @@ AND --> &&
 OR --> ||
 NOT--> !
 /*
- * All operation ==,!=,<=,>=,<,>
+ * All Relational operatoroperation ==,!=,<=,>=,<,>
  */
 
+## Bitwise operator
+"&" - Bitwise and
+"|" - Bitwise or
+"^" - Bitwise XOR
+"<<" - left shift
+">>" - Right shift
 
 Order to cover Topics :
 1. Hello_world

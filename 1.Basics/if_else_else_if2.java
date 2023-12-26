@@ -8,8 +8,11 @@ public class if_else_else_if2 {
             System.out.println(a==b);
             if(a!=c)
             {
-                System.out.println(a.equals(c));
-            }
+                System.out.println("a.equals= "+a.equals(c));
+                System.out.println("Length= "+a.length());
+                System.out.println("a.equalsIgnoreCase= "+a.equalsIgnoreCase(c));            
+                System.err.println(a.charAt(0) );
+            }   
         }
     }
 }
