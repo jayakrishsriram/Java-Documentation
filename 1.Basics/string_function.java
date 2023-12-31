@@ -12,6 +12,8 @@ public class string_function {
         System.err.println(a.charAt(0) );
         System.out.println(a.compareTo(c));
         d="Hello world program";
+        System.out.println("Convert to upper case: "+d.toUpperCase());
+        System.out.println("Convert to Lower case: "+d.toLowerCase());
         System.out.println("Is the string starts with He? "+a.startsWith("He"));
         System.out.println("Is the string starts with He? "+c.startsWith("He"));
         System.out.println("Is the string ends with ey?"+a.endsWith("ey"));

@@ -9,5 +9,7 @@ public class array1 {
         a[0]="Hello";
         a[1]="World";
         System.out.println(a[0]+" "+a[1]); 
+        int[] arr={10,20,34};
+        System.out.println(arr[1]);
     }
 }
