@@ -1,0 +1,32 @@
+# Some Predefined method for String class:
+
+Checking String is empty or not --> isEmpty()
+Finding length of the string --> length()
+Printing String objects  --> toString()
+Compare String objects for equality with or without case sensitive--> equals() or equalsIgoreCase()
+Comparing String object data with the data available in StringBuffer and StringBuilder objects  -->  contentEquals(StringBuffer sb)  ,  contentEquals(Charsequence cs)
+Comparing String objects lexicographically for Sorting purpose --> CompareTo(String S) or CompareToIgnoreCase(String S)
+Reading character from the given index --> charAt()
+Finding index of given char/substr first occurance from 0 index and from the given index  --> indexOf(char ch) or indexOf(char ch,int fromIndex), indexOf(String S) or indexOf(String S, int fromIndex)
+Finding index of given char/substr last occurance from last index and from the given index  --> lastindexOf(char ch) or lastindexOf(char ch,int fromIndex),lastindexOf(String S) or lastindexOf(String S,int fromIndex)
+Searching for the given sub string anywhere in the current string --> contains()
+Checking the string starts with/ ends with --> startsWith(String S) / endsWith(String S)
+Retrieve substring, fixed substring and dynamic substring --> subString(int start) / subString(int start,int end)
+Converting String to character array object / Byte array object  --> toCharArray() / getBytes()
+Converting any datatype value, including primitive types into String type  --> valueOf(datatype value)
+Split objects into tokens. --> split(String delim)
+String objects Concatination --> concat(String S)
+String objects joining with some delimiter --> join(String delim, Charsequence cs)
+Changing the String character to uppercase/ lowercase letters --> toUppercase() / toLowerCase()
+Changing old char/ substr with new char/substr  -->replace(char ch,char nc) / replace(CharSequence ocs, CharSequence ncs)
+Changing old char/ substr with new char/substr with regular expression -->replaceAll(String regex,String ns) / replaceFirst(String regex,String ns)
+Remove trailing and leading spaces --> trim()
+String objects in string pool  --> intern()
+
+
+# Some Predefined method for StringBuffer and StringBuilder class:
+Appending new string characters --> append(x value)
+Inserting new string characters --> insert(int index, x data)
+Replacing existing characters or sequence of characters --> setCharAt(int index,char ch)
+delete character or sequence of characters  --> deleteCharAt(int index), delete(int start, int end)
+Reverse characters in sequence --> reverse()
