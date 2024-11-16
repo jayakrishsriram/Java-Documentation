@@ -1,8 +1,7 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
-        "2. DSA",
         "1.Basics",
-        "2.String"
+        "2.Basic_DSA"
     ]
 }
